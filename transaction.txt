@@ -1,0 +1,7 @@
+Deposit | ID: 2005 Amount: 2000.000000
+Withdraw (Checking) | ID: 2011 Amount: 500.000000
+Withdraw (Savings) | ID: 2005 Amount: 2500.000000
+Withdraw (Savings) | ID: 2005 Amount: 1000.000000
+Transfer from ID: 2005To ID: 2001Amount: 1000.000000
+Transfer from ID: 2001To ID: 2005Amount: 4000.000000
+Deposit | ID: 2005 Amount: 1000.000000

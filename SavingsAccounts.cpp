@@ -30,12 +30,12 @@ double SavingsAccounts::withdraw(double amount)
 	return balance;
 }
 
-double SavingsAccounts::addinterest()
+bool SavingsAccounts::addinterest()
 {
 	balance += balance * interestrate;
 	Transaction::tran("Interest Added | ID: " + to_string(id) +
 		" Rate: " + to_string(interestrate));
-	return balance;
+	return true;
 
 }
 

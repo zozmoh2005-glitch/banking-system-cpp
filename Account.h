@@ -19,7 +19,7 @@ public:
 	virtual  double deposit(double amount);
 	virtual bool transferfrom(double amount);
 	virtual double transferto(double amount);
-	virtual double addinterest() = 0;
+	virtual bool addinterest() = 0;
 	virtual  double withdraw(double amount)=0;
 	virtual void print() const;
 	int getid() const;

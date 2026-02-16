@@ -86,7 +86,7 @@ void BankSystem::addinterest()
         return;
     }
 
-    acc->addinterest();
+   if(acc->addinterest());
     cout << "Interest added successfully" << endl;
 }
 

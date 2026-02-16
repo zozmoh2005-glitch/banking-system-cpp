@@ -28,10 +28,10 @@ if (amount + fee > balance) {
 	
 	return balance;
 }
-double CheckingAccountas::addinterest()
+bool CheckingAccountas::addinterest()
 {
 	cout << "Checking accounts do not earn interest" << endl;
-	return balance;
+	return false;
 }
 void CheckingAccountas::print() const
 {

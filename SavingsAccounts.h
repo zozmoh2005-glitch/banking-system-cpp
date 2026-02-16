@@ -12,7 +12,7 @@ public:
     SavingsAccounts(int i, string n, double bal, double rate);
     ~SavingsAccounts();
     double withdraw(double amount) override;
-    double addinterest() override;
+    bool addinterest() override;
     void print() const override;
 };
 

@@ -12,7 +12,7 @@ public:
     CheckingAccountas(int i, string n, double bal, double f);
     ~CheckingAccountas();
     double withdraw(double amount) override;
-    double addinterest()override;
+    bool addinterest()override;
     void print() const override;
 };
 
